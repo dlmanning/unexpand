@@ -1,0 +1,22 @@
+{
+  "name": "unexpand",
+  "version": "1.0.0",
+  "description": "convert spaces to tabs (node implementation of unexpand)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "prepublish": "6to5 src --out-dir lib"
+  },
+  "keywords": [
+    "expand",
+    "tabs",
+    "spaces"
+  ],
+  "author": "David Manning",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "6to5": "^2.2.0",
+    "tape": "^3.0.3"
+  }
+}
